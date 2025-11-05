@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/seb-bank-simulator.iml" filepath="$PROJECT_DIR$/.idea/seb-bank-simulator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seb-bank-simulator-backend/seb-bank-simulator-backend.iml" filepath="$PROJECT_DIR$/seb-bank-simulator-backend/seb-bank-simulator-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/my-bank-simulator.iml" filepath="$PROJECT_DIR$/.idea/my-bank-simulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-bank-simulator-backend/my-bank-simulator-backend.iml" filepath="$PROJECT_DIR$/my-bank-simulator-backend/my-bank-simulator-backend.iml" />
     </modules>
   </component>
 </project>

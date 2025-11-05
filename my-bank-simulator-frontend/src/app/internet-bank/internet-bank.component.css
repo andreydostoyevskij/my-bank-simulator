@@ -1,0 +1,17 @@
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  width: 50%; /* Set a fixed width for the label */
+}
+.lock-icon {
+  width: 24px; /* Ensure consistent size */
+  height: 24px;
+  /* You might add margin-left if you want more space */
+}
+.form-control:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}

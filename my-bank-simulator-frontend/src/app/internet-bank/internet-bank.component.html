@@ -1,0 +1,58 @@
+<!-- Header Section -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8 col-sm-10">
+      <div class="d-flex justify-content-between align-items-center m-4">
+        <h2>Internet bank for business</h2>
+        <img src="unlock.png" alt="Lock icon" class="lock-icon" />
+      </div>
+      <p class="text-muted m-4">Select authentication tool</p>
+      <div class="btn-group mb-4">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Smart ID</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SEBeta Mobile App</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">e-paraksts mobile</a>
+          </li>
+        </ul>
+      </div>
+      <form class="form" (ngSubmit)="onLogin()">
+        <div class="mb-3">
+          <label for="userId" class="form-label">User ID</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            [(ngModel)]="userId"
+            name="userId"
+            required
+          />
+          <div id="emailHelp" class="form-text mb-3">
+            Simple login is activated for authenticated users. Consent can be
+            managed here.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="personalIdNumber" class="form-label"
+            >Personal identity number</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputPassword1"
+            [(ngModel)]="personalIdNumber"
+            required
+            name="personalIdNumber"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Log in</button>
+      </form>
+    </div>
+  </div>
+</div>

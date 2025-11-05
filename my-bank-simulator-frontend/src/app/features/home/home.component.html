@@ -1,0 +1,405 @@
+<!-- Language Switcher (optional top bar) -->
+<div>
+  Dark theme
+  <input type="checkbox" id="switch-light" />
+  <input type="checkbox" id="switch-dark" />
+</div>
+<div class="lang-changer">Mainīt valodu:</div>
+
+<!-- Main Navbar -->
+<nav class="navbar d-flex align-items-center">
+  <!-- Logo -->
+  <a class="logo-link" routerLink="/">
+    <img class="logo" src="Sebetalogoj.jpg" alt="SEBeta logo" />
+  </a>
+
+  <!-- Left-aligned links -->
+  <ul class="nav nav-underline flex-grow-1">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/" routerLinkActive="active">Private</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/personal" routerLinkActive="active"
+        >Business</a
+      >
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/become" routerLinkActive="active"
+        >Become a customer</a
+      >
+    </li>
+  </ul>
+
+  <!-- Right-aligned links -->
+  <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/contacts" routerLinkActive="active"
+        >Contacts</a
+      >
+    </li>
+    <li class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        routerLink="/internet-bank"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Careers
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Open Positions</a></li>
+        <li><a class="dropdown-item" href="#">Life at SEBeta</a></li>
+      </ul>
+    </li>
+    <li class="nav-item dropdown">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        About
+      </a>
+      <ul class="dropdown-menu">
+        <li>
+          <a class="dropdown-item" href="/internet-bank">Our Mission</a>
+        </li>
+        <li><a class="dropdown-item" href="#">Sustainability</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/internet-bank" routerLinkActive="active"
+        >Internet Bank</a
+      >
+    </li>
+    <li class="nav-item">
+      <img class="search-icon" src="loupe.png" />
+    </li>
+  </ul>
+</nav>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img
+        src="slide1p.png"
+        class="d-block w-100"
+        alt="..."
+        width="1024"
+        height="934"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="slide2p.png"
+        class="d-block w-100"
+        alt="..."
+        width="1024"
+        height="934"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<footer class="bg-light text-dark pt-5 pb-3 border-top mt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Left menu -->
+      <div class="col-md-2 mb-4">
+        <p>
+          <a href="#" class="fw-bold text-decoration-none text-dark">Private</a>
+        </p>
+        <p>
+          <a href="#" class="fw-bold text-decoration-none text-dark"
+            >Business</a
+          >
+        </p>
+        <p>
+          <a href="#" class="fw-bold text-decoration-none text-dark"
+            >Corporate banking</a
+          >
+        </p>
+        <p>
+          <a href="#" class="fw-bold text-decoration-none text-dark"
+            >Private banking</a
+          >
+        </p>
+      </div>
+
+      <!-- Become a customer -->
+      <div class="col-md-3 mb-4">
+        <p class="fw-bold">
+          <a href="#" class="text-dark text-decoration-none"
+            >Become a customer</a
+          >
+        </p>
+        <p class="fw-bold mb-1">Daily banking</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Service plans</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Bank accounts</a>
+          </li>
+          <li><a href="#" class="text-decoration-none text-dark">Cards</a></li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Payments</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Tools and online services</a
+            >
+          </li>
+        </ul>
+        <p class="fw-bold mb-1">Payment collection</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Accepting payments in-store</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Accepting e-commerce payments</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Collecting payments with e-invoices</a
+            >
+          </li>
+        </ul>
+        <p class="fw-bold mb-1">Financing</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Leasing</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Investment financing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Microloan</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Current assets and purchase financing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Trade financing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Agricultural financing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Sustainable financing</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >SEB Baltic Venture Debt</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Insurance / Business growth -->
+      <div class="col-md-3 mb-4">
+        <p class="fw-bold mb-1">Insurance</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Insurance for your employees</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Vehicle and technique insurance</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Property and inventory insurance</a
+            >
+          </li>
+        </ul>
+        <p class="fw-bold">
+          <a href="#" class="text-dark text-decoration-none"
+            >For business growth</a
+          >
+        </p>
+        <p class="fw-bold mb-1">Savings and investments</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Savings</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Investments</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Savings for your employees</a
+            >
+          </li>
+        </ul>
+        <p class="fw-bold mb-1">Risk management</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Currency risk management</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Interest risk management</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Infohub and About -->
+      <div class="col-md-2 mb-4">
+        <p class="fw-bold mb-1">Infohub</p>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-dark">News</a></li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Analytics</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Fraud prevention</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Personalised content</a
+            >
+          </li>
+        </ul>
+        <p class="fw-bold mb-1">About SEB</p>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-dark">About SEB</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Sustainability</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">Organization</a>
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Related companies</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Community investment</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Contacts for media</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark">For investors</a>
+          </li>
+          <li><a href="#" class="text-decoration-none text-dark">Legal</a></li>
+        </ul>
+        <a href="#" class="text-decoration-none text-dark">Contacts</a>
+      </div>
+
+      <!-- Career -->
+      <div class="col-md-2 mb-4">
+        <p class="fw-bold mb-1">Career</p>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-dark">Career</a></li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Talent programmes</a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-decoration-none text-dark"
+              >Product development and technology</a
+            >
+          </li>
+        </ul>
+        <!-- Social Media Icons -->
+        <div class="d-flex gap-2 mt-3">
+          <a href="#"
+            ><img src="facebook-icon.png" alt="Facebook" height="24"
+          /></a>
+          <a href="#"
+            ><img src="youtube-icon.png" alt="YouTube" height="24"
+          /></a>
+          <a href="#"
+            ><img src="instagram-icon.png" alt="Instagram" height="24"
+          /></a>
+          <a href="#"><img src="x-icon.png" alt="X (Twitter)" height="24" /></a>
+          <a href="#"
+            ><img src="linkedin-icon.png" alt="LinkedIn" height="24"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
